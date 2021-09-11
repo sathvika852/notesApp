@@ -1,0 +1,15 @@
+.grid-parent
+{
+    display: flex;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid
+{
+   display:flex;
+   flex-wrap:wrap;
+   width: 400px;
+   height: 300px;
+}
