@@ -1,0 +1,37 @@
+<div class="container">
+  <form #ref="ngForm" (ngSubmit)="addNotesData(ref)">
+    <h1><i class="fas fa-book-open"></i> Make a note</h1>
+
+    <div class="mb-3 title mt-4">
+      <label for="title" class="form-label">Enter a Title For The Notes </label>
+      <input
+        type="text"
+        id="title"
+        name="Title"
+        class="form-control"
+        placeholder="Title"
+        ngModel
+      />
+    </div>
+
+    <div class="mb-3 date">
+      <label for="dt" class="form-label">Date </label>
+      <input type="date" id="dt" name="date" class="form-control" ngModel />
+    </div>
+
+    <p class="noteclass">Take a Note</p>
+    <div class="form-floating mb-5">
+      <textarea
+        class="form-control"
+        name="note"
+        id="floatingTextarea"
+        ngModel
+      ></textarea>
+      <label for="floatingTextarea">Take a Note</label>
+    </div>
+
+    <div class="butncls">
+      <button type="submit" class="btn text-lg text-light">ADD NOTES</button>
+    </div>
+  </form>
+</div>

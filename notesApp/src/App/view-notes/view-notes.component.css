@@ -1,0 +1,67 @@
+.parent
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 85%;
+    border-radius: 12px;
+    background-color:slategrey;
+    color: white;
+    margin: 2rem;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 7rem;
+  
+  
+}
+/*.date
+{
+ display: flex;
+    width: 200px;
+    flex-direction: column;
+    border:5px solid black;
+
+    margin:0rem;
+    border-radius: 10px;
+    align-items: center;
+    height: 92px;
+}*/
+.date
+{
+  margin-left: 1rem;
+}
+.innerparent
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.title
+{
+    width:600px ;
+    display: flex;
+}
+
+.btnClass
+{
+   padding-right: 2rem;
+   padding-top: 1.5rem;
+}
+.btn
+{
+  padding:8px;
+  border-radius:5px;
+  border:3px solid black;
+  background-color: cadetblue;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card
+{
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 50%);
+}
+.card:hover {
+  top: -10;
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 50%);
+}
